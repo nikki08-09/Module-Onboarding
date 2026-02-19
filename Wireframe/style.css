@@ -33,6 +33,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font: var(--font);
+  margin-left: 15%;
+  margin-right: 15%;
 }
 a {
   padding: var(--space);
@@ -53,7 +55,6 @@ main {
   margin: 0 auto calc(var(--space) * 4) auto;
 }
 footer {
-  position: fixed;
   bottom: 0;
   text-align: center;
 }
