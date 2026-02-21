@@ -26,10 +26,15 @@ As well as useful links to learn more */
 }
 /* ====== Base Elements ======
  General rules for basic HTML elements in any context */
+header {
+  text-align: center;
+}
 body {
   background: var(--paper);
   color: var(--ink);
   font: var(--font);
+  margin-left: 15%;
+  margin-right: 15%;
 }
 a {
   padding: var(--space);
@@ -50,8 +55,7 @@ main {
   margin: 0 auto calc(var(--space) * 4) auto;
 }
 footer {
-  position: fixed;
-  bottom: 0;
+  border-top: 1px solid black;
   text-align: center;
 }
 /* ====== Articles Grid Layout ====
