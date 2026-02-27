@@ -16,76 +16,71 @@
       <form>
         <fieldset>
           <legend>Your Details</legend>
-          <p>
-            <label for="name">Full Name</lable><br />
-            <input type="text" id="name"  name="name" required />
-          </p>
+          <div>
+            <label for="name">Full Name</label><br />
+            <input type="text" id="name" name="name" minlength="2" required />
+          </div>
 
-          <p>
-            <label for="email">Email</lable><br />
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-            />
-          </p>
+          <div>
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" required />
+          </div>
         </fieldset>
 
         <fieldset>
           <legend>T-Shirt Colour</legend>
-          <p>
+          <div>
             <input type="radio" id="red" name="colour" value="red" required />
             <label for="red">Red</label>
-          </p>
+          </div>
 
-          <p>
+          <div>
             <input type="radio" id="blue" name="colour" value="blue" />
-            <label for="blue">Blue</lable>
-          </p>
+            <label for="blue">Blue</label>
+          </div>
 
-          <p>
+          <div>
             <input type="radio" id="green" name="colour" value="green" />
-            <label for="green">Green</lable>
-          </p>
+            <label for="green">Green</label>
+          </div>
         </fieldset>
 
         <fieldset>
           <legend>T-Shirt Sizes</legend>
-          <p>
+          <div>
             <input type="radio" id="xs" name="size" value="xs" required />
-            <label for="xs">XS</lable>
-          </p>
+            <label for="xs">XS</label>
+          </div>
 
-          <p>
+          <div>
             <input type="radio" id="s" name="size" value="s" />
-            <label for="s">S</lable>
-          </p>
+            <label for="s">S</label>
+          </div>
 
-          <p>
+          <div>
             <input type="radio" id="m" name="size" value="m" />
-            <label for="m">M</lable>
-          </p>
+            <label for="m">M</label>
+          </div>
 
-          <p>
+          <div>
             <input type="radio" id="l" name="size" value="l" />
-            <label for="l">L</lable>
-          </p>
+            <label for="l">L</label>
+          </div>
 
-          <p>
+          <div>
             <input type="radio" id="xl" name="size" value="xl" />
-            <label for="xl">XL</lable>
-          </p>
+            <label for="xl">XL</label>
+          </div>
 
-          <p>
+          <div>
             <input type="radio" id="xxl" name="size" value="xxl" />
-            <label for="xxl">XXL</lable>
-          </p>
+            <label for="xxl">XXL</label>
+          </div>
         </fieldset>
 
-        <p>
+        <div>
           <button type="submit">Submit Order</button>
-        </p>
+        </div>
       </form>
     </main>
 
